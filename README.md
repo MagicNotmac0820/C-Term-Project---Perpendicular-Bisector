@@ -4,7 +4,6 @@
 ## Rational.h
 由於使用浮點數可能丟失精度，於是改用一個`class CRational`存分子跟分母
 ### Quick reference
-***
 - Static Member: 
     1. _undefined => 標示為未定義狀態，比如分母為0的情況
 - Constructors: 
@@ -13,7 +12,7 @@
     2. CRational( const CRational & )
         => Copy constructor
     3. CRational( string )
-        => 可以傳入string如 $a/b$ 型(  $a$ 跟 $b$ 皆必須為合法的數字）
+        => 可以傳入string如 $\frac{a}{b}$ 型(  $a$ 跟 $b$ 皆必須為合法的數字）
 - Getter Functions:
     1. getNumerator => 取得分子
     2. getDenominator => 取得分母
