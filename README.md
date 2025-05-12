@@ -12,7 +12,7 @@
     2. **CRational( const CRational & )** :
         Copy constructor
     3. **CRational( string )** : 
-        可以傳入string如 $\cfrac{a}{b}$ 型(  $a$ 跟 $b$ 皆必須為合法的數字）
+        可以傳入string如 $\dfrac{a}{b}$ 型(  $a$ 跟 $b$ 皆必須為合法的數字）
 - Getter Functions:
     1. getNumerator :  取得分子
     2. getDenominator :  取得分母
@@ -36,8 +36,8 @@
         7. **operator-** : 同Substract
         8. **operator*** : 同Multiply
         9. **operator/** : 同Divide
-        11. **operator>>** : 輸入分數，如輸入 `3 2` 表示 $\cfrac{3}{2}$
-        12. **operator<<** : 輸出分數，如分數 $\cfrac{3}{2}$ 會被輸出成 `3/2`
+        11. **operator>>** : 輸入分數，如輸入 `3 2` 表示 $\dfrac{3}{2}$
+        12. **operator<<** : 輸出分數，如分數 $\dfrac{3}{2}$ 會被輸出成 `3/2`
 ## Point.h
 
 ## Line.h
