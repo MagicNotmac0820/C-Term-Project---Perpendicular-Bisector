@@ -14,8 +14,8 @@
     3. **CRational( string )** : 
         可以傳入string如 $\dfrac{a}{b}$ 型(  $a$ 跟 $b$ 皆必須為合法的數字）
 - Getter Functions:
-    1. getNumerator :  取得分子
-    2. getDenominator :  取得分母
+    1. **getNumerator** :  取得分子
+    2. **getDenominator** :  取得分母
 - Operations of Fraction: 
     1. **Add** :  分數相加
     2. **Substract** :  分數相減
