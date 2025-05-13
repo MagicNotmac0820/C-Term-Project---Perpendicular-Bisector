@@ -47,19 +47,19 @@
     2. **CPoint( int , int )** :
         傳入兩個int初始化整數x座標及整數y座標
     3. **CPoint( string , string )** :
-        傳入兩個形如$(\dfrac{a_x}{b_x},\dfrac{a_y}{b_y})$的string，例如傳入`(3/2,1/2)`的話則該點會被初始化成$(\dfrac{3}{2},\dfrac{1}{2})$
+        傳入兩個形如 $(\dfrac{a_x}{b_x},\dfrac{a_y}{b_y})$ 的string，例如傳入`(3/2,1/2)`的話則該點會被初始化成 $(\dfrac{3}{2},\dfrac{1}{2})$
 - Getter Functions
     1. **getXCoordinate** : 獲取點的x座標
     2. **getYCoordinate** : 獲取點的y座標
 - Operator overloading
     1. **operator>>** :
         輸入兩個分數或整數，如：
-        - 輸入`3/2 1/2`則會初始化一個點$(\dfrac{3}{2},\dfrac{1}{2})$
-        - 輸入`3 2`則會初始化一個點$({3},{2})$
+        - 輸入`3/2 1/2`則會初始化一個點 $(\dfrac{3}{2},\dfrac{1}{2})$
+        - 輸入`3 2`則會初始化一個點 $({3},{2})$
     2. **operator<<**
         輸出點，如：
-        - 點$(\dfrac{3}{2},\dfrac{1}{2})$會以`(3/2,1/2)`的形式被print out
-        - 座標是整數的話則會直接輸出整數，例如點$(3,2)$會以`(3,2)`的形式被print out
+        - 點 $(\dfrac{3}{2},\dfrac{1}{2})$ 會以`(3/2,1/2)`的形式被print out
+        - 座標是整數的話則會直接輸出整數，例如點 $(3,2)$ 會以`(3,2)`的形式被print out
 ## Line.h
 
 ## Circumcenter.cpp
