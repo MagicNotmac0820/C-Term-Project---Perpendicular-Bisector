@@ -83,3 +83,9 @@
 - Operator Overloading
     1. **operator<<** : 以 $ax+by=c$ 的形式print out
 ## Circumcenter.cpp
+尋找不共線三點所形成三角形之外心
+### Functions
+1. **PerpendicularBisector** :  
+    傳入兩相異點，回傳此兩點之垂直平分線
+2. **findCircumcenterPoint** :  
+    傳入三個不共線的點，回傳此三點所形成三角形之外心
