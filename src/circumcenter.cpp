@@ -39,6 +39,7 @@ int main(void){
 #ifdef MULTIPLE_TESTCASE
     while(1){
 #endif
+        cout << "Please input three distinct points: (For example, 3 0 0 3 0 -3): " ;
         try{
             cin >> a >> b >> c ;
         }catch( const char *error_msg ){
