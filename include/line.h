@@ -2,7 +2,7 @@
 #define __LINE_H__
 
 #include <iostream>
-#include "point.h"
+#include <point.h>
 using std::ostream ;
 
 class CLine{

@@ -1,7 +1,8 @@
 #include <iostream>
-#include "line.h"
-#define RED "\x1B[1;38;5;196m"
-#define DEFAULT "\x1B[0;m"
+#include <rational.h>
+#include <point.h>
+#include <line.h>
+#include <color.h>
 // #define MULTIPLE_TESTCASE
 
 CLine PerpendicularBisector( const CPoint &point1 , const CPoint &point2 ){

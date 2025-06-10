@@ -1,7 +1,7 @@
 #ifndef __POINT_H__
 #define __POINT_H__
 
-#include "rational.h"
+#include <rational.h>
 
 class CPoint{
     private :
